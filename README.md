@@ -1,3 +1,11 @@
+Add simple cuda code to convert color of image 
+
+#Linux:
+
+```bash
+nvcc  RGB2Gray.cu -o RGB2Gray -lm
+```
+
 Support code and images for [C Programming - Reading and writing images with the stb_image libraries](https://www.youtube.com/watch?v=1OyQoPCp46o)
 
 Text version of the tutorial https://solarianprogrammer.com/2019/06/10/c-programming-reading-writing-images-stb_image-libraries/
